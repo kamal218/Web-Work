@@ -1,0 +1,251 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+.container {
+    height: 100vh;
+    width: 100wh;
+    border: 2px;
+    border-style: solid;
+}
+
+.navbar {
+    height: 15%;
+    width: 100%;
+    border: 2px;
+    border-style: solid;
+    display: flex;
+    background-color: #090808d1;
+}
+
+.grid {
+    height: 85%;
+    width: 100%;
+    border: 2px;
+    border-style: solid;
+    background-color: #c3c6bf;
+    padding: 20px;
+    overflow-y: auto;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.filter-container {
+    height: 12vh;
+    width: 20rem;
+    border: 2px;
+    margin-left: 3rem;
+    margin-top: 1.25vh;
+    display: flex;
+    background-color: #5b5353d1;
+    border-radius: 5px;
+}
+
+.update {
+    margin-left: 8rem;
+    width: 15rem;
+    height: 12vh;
+    margin-top: 1.25vh;
+    display: flex;
+    border-radius: 5px;
+    background-color: #5b5353d1;
+}
+
+.filter {
+    height: 100%;
+    width: 25%;
+    border: 1px;
+}
+
+.pink {
+    background-color: pink;
+}
+
+.red {
+    background-color: red;
+}
+
+.green {
+    background-color: green;
+}
+
+.black {
+    background-color: black;
+}
+
+.pink-color {
+    height: 50%;
+    width: 50%;
+    border: 1px;
+    margin: auto;
+    margin-top: 25%;
+    border-radius: 3px;
+    background-color: pink;
+}
+
+.red-color {
+    height: 50%;
+    width: 50%;
+    border: 1px;
+    margin: auto;
+    margin-top: 25%;
+    border-radius: 3px;
+    background-color: red;
+}
+
+.green-color {
+    height: 50%;
+    width: 50%;
+    border: 1px;
+    margin: auto;
+    margin-top: 25%;
+    border-radius: 3px;
+    background-color: green;
+}
+
+.black-color {
+    height: 50%;
+    width: 50%;
+    border: 1px;
+    margin: auto;
+    margin-top: 25%;
+    border-radius: 3px;
+    background-color: black;
+}
+
+.modal-container {
+    box-shadow: 5px 5px 20px 20px;
+}
+
+.modal-filter {
+    opacity: 0.7;
+}
+
+.modal-filter:hover {
+    opacity: 1;
+}
+
+.modal-filter.pink {
+    background-color: pink;
+}
+
+.modal-filter.red {
+    background-color: red;
+}
+
+.modal-filter.green {
+    background-color: green;
+}
+
+.modal-filter.black {
+    background-color: black;
+}
+
+.add {
+    height: 100%;
+    width: 100%;
+    font-size: 5rem;
+    text-align: center;
+}
+
+.delete {
+    height: 100%;
+    width: 100%;
+    font-size: 5rem;
+    text-align: center;
+}
+
+.filter:hover {
+    background-color: rgb(112, 88, 88);
+}
+
+.delete:hover {
+    background-color: rgb(112, 88, 88);
+}
+
+.add:hover {
+    background-color: rgb(112, 88, 88);
+}
+
+.modal-container {
+    height: 27rem;
+    width: 45rem;
+    /* border: 5px solid; */
+    display: flex;
+    border-radius: 50px;
+    margin: auto;
+    margin-top: 4rem;
+    position: absolute;
+    top: 135px;
+    left: 110px;
+}
+
+.writing-area {
+    height: 100%;
+    width: 70%;
+    /* border: 5px solid; */
+    background-color: white;
+    font-size: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    padding: 10px;
+}
+
+.filter-area {
+    height: 100%;
+    width: 30%;
+    /* border: 5px solid; */
+    background-color: #6f6d6d;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal-filter {
+    height: 4rem;
+    width: 9rem;
+    border: 3px solid;
+    margin-top: 15px;
+    border-radius: 5px;
+}
+
+.ticket {
+    /* border: 3px solid; */
+    margin-top: 25px;
+    height: 15rem;
+    width: 15rem;
+}
+
+.bar {
+    /* border: 2px solid; */
+    width: 100%;
+    height: 20%;
+}
+
+.task {
+    /* border: 2px solid; */
+    width: 100%;
+    height: 80%;
+    font-size: 30px;
+    overflow: auto;
+    background-color: white;
+    outline: none;
+}
+
+.id {
+    /* border: 1px solid; */
+    margin: auto;
+    height: 90%;
+    width: 70%;
+    margin-top: 0.15rem;
+    text-align: center;
+    padding: 3px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+}
